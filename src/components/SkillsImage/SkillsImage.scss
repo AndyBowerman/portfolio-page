@@ -1,0 +1,29 @@
+@use "../../styles/variables" as *;
+
+.skills-image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    &__img {
+        height: 12rem;
+        width: auto;
+        z-index: 1;
+    }
+
+    &__decoration {
+        height: 12rem;
+        width: 15rem;
+        background-color: $color-electric-blue;
+        position: absolute;
+        box-shadow: $box-shadow;
+        transform: skew(-5deg, -5deg);
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .skills-image {
+        display: none;
+    }
+}

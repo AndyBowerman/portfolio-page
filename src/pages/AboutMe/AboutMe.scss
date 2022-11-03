@@ -1,0 +1,14 @@
+@use "../../styles/variables" as *;
+
+.about-me {
+    height: 100%;
+    padding: 0 6rem;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .about-me {
+        padding: 2rem;
+    }
+}

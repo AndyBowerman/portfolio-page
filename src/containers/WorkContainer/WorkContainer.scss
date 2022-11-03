@@ -1,0 +1,8 @@
+@use "../../styles/variables" as *;
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}

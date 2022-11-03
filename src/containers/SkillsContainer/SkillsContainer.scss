@@ -1,0 +1,15 @@
+@use "../../styles/variables" as *;
+
+.skills-container {
+    margin: 1.5rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 622px) {
+    .skills-container {
+        flex-direction: column;
+    }
+}

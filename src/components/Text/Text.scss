@@ -1,0 +1,8 @@
+@use "../../styles/variables" as *;
+
+.text {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    font-family: $font-primary;
+    color: $color-black;
+}

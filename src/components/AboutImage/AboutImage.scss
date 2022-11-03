@@ -1,0 +1,51 @@
+@use "../../styles/variables" as *;
+
+.about-image {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+        z-index: 1;
+        height: 20rem;
+        width: auto;
+    }
+
+    &__decoration {
+        height: 20rem;
+        width: 30rem;
+        position: absolute;
+        background-color: $color-electric-blue;
+        box-shadow: $box-shadow;
+        transform: skew(0deg, -5deg);
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .about-image__img {
+        height: 15rem;
+    }
+
+    .about-image__decoration {
+        height: 15rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-image__img {
+        height: 10rem;
+    }
+
+    .about-image__decoration {
+        height: 10rem;
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .about-image {
+        display: none;
+    }
+}

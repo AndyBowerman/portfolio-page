@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+
+.layout {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+
+    &__main {
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

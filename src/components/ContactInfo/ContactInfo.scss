@@ -1,0 +1,26 @@
+@use "../../styles/variables" as *;
+
+.contact-info {
+    font-family: $font-primary;
+    font-size: $font-size-medium;
+    text-align: center;
+    list-style: none;
+    z-index: 1;
+    font-weight: 700;
+
+    &__item {
+        padding: 1rem 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-black
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .contact-info {
+        font-size: $font-size-small;
+        padding: 0 1rem;
+    }
+}

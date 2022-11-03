@@ -1,0 +1,35 @@
+@use "../../styles/variables" as *;
+
+.headline__button {
+    background-color: transparent;
+    border: 0.2rem $color-black solid;
+    padding: 1.2rem;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: $font-size-medium;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.headline__button:hover {
+    box-shadow: $box-shadow;
+}
+
+.card__button {
+    background-color: $color-dark-blue;
+    border: none;
+    color: $color-white-smoke;
+    padding: 0.9rem;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: $font-size-small;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.card__button:hover {
+    box-shadow: $box-shadow;
+}
