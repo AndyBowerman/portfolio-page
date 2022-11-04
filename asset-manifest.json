@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-page/static/css/main.2ae2c9c1.css",
+    "main.js": "/portfolio-page/static/js/main.ddaba21f.js",
+    "static/js/787.28a6522c.chunk.js": "/portfolio-page/static/js/787.28a6522c.chunk.js",
+    "static/media/api-punk-project.png": "/portfolio-page/static/media/api-punk-project.874d27c5112645351351.png",
+    "static/media/snake-project.png": "/portfolio-page/static/media/snake-project.e25e3fb9918aaef6674f.png",
+    "static/media/coursology.png": "/portfolio-page/static/media/coursology.586a0ba6cf1c07dacab6.png",
+    "static/media/calculator-project.png": "/portfolio-page/static/media/calculator-project.65cb530d4b7caaaa5652.png",
+    "static/media/learning.svg": "/portfolio-page/static/media/learning.df699b03de875529715252c12ebdf5ea.svg",
+    "static/media/coding.svg": "/portfolio-page/static/media/coding.0b22b55fa98b9ce25c0dd2f1b75179ff.svg",
+    "static/media/react.svg": "/portfolio-page/static/media/react.2dea7ad013304f6da928b75be1608dbc.svg",
+    "static/media/sass.svg": "/portfolio-page/static/media/sass.5d6c06a44bcfee1fe7769ae1a9958e63.svg",
+    "static/media/java.svg": "/portfolio-page/static/media/java.e3c4f19c64301e5551a5d87645b4fe5b.svg",
+    "static/media/springboot.svg": "/portfolio-page/static/media/springboot.05cb7dd523acefa4f8f30182554fb1c0.svg",
+    "static/media/bem.svg": "/portfolio-page/static/media/bem.9d2e7c007461a47539e20b654a1ab3a4.svg",
+    "static/media/git.svg": "/portfolio-page/static/media/git.44444a2befd3c9da6e3555e9a3476441.svg",
+    "static/media/js.svg": "/portfolio-page/static/media/js.45b9247c06373caa49e867ba2231a3ec.svg",
+    "index.html": "/portfolio-page/index.html",
+    "static/media/css.svg": "/portfolio-page/static/media/css.c3852c9754db8ed6a43a5d9a3bb5d5ab.svg",
+    "static/media/html.svg": "/portfolio-page/static/media/html.74e4a9c01a21a1ca5ca7ebc0ad1a678c.svg",
+    "main.2ae2c9c1.css.map": "/portfolio-page/static/css/main.2ae2c9c1.css.map",
+    "main.ddaba21f.js.map": "/portfolio-page/static/js/main.ddaba21f.js.map",
+    "787.28a6522c.chunk.js.map": "/portfolio-page/static/js/787.28a6522c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ae2c9c1.css",
+    "static/js/main.ddaba21f.js"
+  ]
+}
