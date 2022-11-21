@@ -14,9 +14,9 @@ const Card = ({image, title, description, languages, name, code, site}) => {
           <h4 className="card__header">{title}</h4>
           <p className="card__text">{description}</p>
           <ul className="card__list">{renderLanguages}</ul>
-          <a href={site} target="_blank" rel="noreferrer">
+          {site && <a href={site} target="_blank" rel="noreferrer">
             <Button name="card__button" text="Visit Site" />
-          </a>
+          </a>}
           <a href={code} target="_blank" rel="noreferrer">
             <Button name="card__button" text="View Source Code" />
           </a>            
