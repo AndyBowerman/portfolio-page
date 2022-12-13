@@ -3,12 +3,14 @@
 .contact {
     display: flex;
     position: relative;
+    width: 38rem;
+    justify-content: center;
 
     &__decoration--left {
         position: absolute;
         left: 0;
-        height: 16rem;
-        width: 17.2rem;
+        height: 17.5rem;
+        width: 18.9rem;
         background-color: $color-blue;
         box-shadow: $box-shadow;
         transform: skew(-5deg, -5deg);
@@ -17,8 +19,8 @@
     &__decoration--right {
         position: absolute;
         right: 0;
-        height: 16rem;
-        width: 17.2rem;
+        height: 17.5rem;
+        width: 18.9rem;
         background-color: $color-electric-blue;
         box-shadow: $box-shadow;
         transform: skew(-5deg, -5deg);
