@@ -1,5 +1,5 @@
 import "./WorkContainer.scss";
-import calculator from "../../assets/calculator-project.png";
+import hangman from "../../assets/hang-man.png";
 import snake from "../../assets/snake-project.png";
 import api from "../../assets/api-punk-project.png";
 import coursology from "../../assets/coursology.png";
@@ -36,6 +36,15 @@ const WorkContainer = () => {
       site: "",
     },
     {
+      image: hangman,
+      title: "Hangman",
+      description:
+        "Play Hangman in the console, users can select a difficulty level which will alter the length of the word to be guessed.",
+      languages: ["Java"],
+      code: "https://github.com/AndyBowerman/Hang-Man-2",
+      site: "",
+    },
+    {
       image: snake,
       title: "Snake Game",
       description:
@@ -43,15 +52,6 @@ const WorkContainer = () => {
       languages: ["HTML", "SASS", "JavaScript"],
       code: "https://github.com/AndyBowerman/JS-Snake-Game",
       site: "https://andybowerman.github.io/JS-Snake-Game/",
-    },
-    {
-      image: calculator,
-      title: "JS Calculator",
-      description:
-        "JavaScript Calculator that can perform all basic calculations and chain calculations together.",
-      languages: ["HTML", "SASS", "JavaScript"],
-      code: "https://github.com/AndyBowerman/JS-Calculator",
-      site: "https://andybowerman.github.io/JS-Calculator/",
     },
   ];
 
