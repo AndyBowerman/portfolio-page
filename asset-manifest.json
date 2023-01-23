@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-page/static/css/main.88bc9f00.css",
-    "main.js": "/portfolio-page/static/js/main.9da5eb60.js",
+    "main.js": "/portfolio-page/static/js/main.57281081.js",
     "static/js/787.28a6522c.chunk.js": "/portfolio-page/static/js/787.28a6522c.chunk.js",
     "static/media/api-punk-project.png": "/portfolio-page/static/media/api-punk-project.874d27c5112645351351.png",
+    "static/media/property-tracker.png": "/portfolio-page/static/media/property-tracker.cc5849007956964b0ea2.png",
     "static/media/Homepage.png": "/portfolio-page/static/media/Homepage.3959964589497d7345e5.png",
     "static/media/snake-project.png": "/portfolio-page/static/media/snake-project.e25e3fb9918aaef6674f.png",
     "static/media/hang-man.png": "/portfolio-page/static/media/hang-man.e59ae80db39683c51def.png",
@@ -20,11 +21,11 @@
     "static/media/css.svg": "/portfolio-page/static/media/css.4003548cc505cb3fb2b81f0fef9b890d.svg",
     "static/media/html.svg": "/portfolio-page/static/media/html.0c6660be265d77a506113ca60a9c080d.svg",
     "main.88bc9f00.css.map": "/portfolio-page/static/css/main.88bc9f00.css.map",
-    "main.9da5eb60.js.map": "/portfolio-page/static/js/main.9da5eb60.js.map",
+    "main.57281081.js.map": "/portfolio-page/static/js/main.57281081.js.map",
     "787.28a6522c.chunk.js.map": "/portfolio-page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88bc9f00.css",
-    "static/js/main.9da5eb60.js"
+    "static/js/main.57281081.js"
   ]
 }
