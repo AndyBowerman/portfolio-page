@@ -5,18 +5,10 @@ import api from "../../assets/api-punk-project.png";
 import coursology from "../../assets/coursology.png";
 import Card from "../../components/Card/Card";
 import personalApp from "../../assets/Homepage.png";
+import propertyTracker from "../../assets/property-tracker.png"
 
 const WorkContainer = () => {
   const projects = [
-    {
-      image: api,
-      title: "Brew Dog API",
-      description:
-        "I've used React to build out a front end that will display the results of a call to the Brew Dog API. Users can search, filter using a number of options and view information on each beer.",
-      languages: ["React", "SASS", "Restful API"],
-      code: "https://github.com/AndyBowerman/punk-api-project",
-      site: "https://andybowerman.github.io/punk-api-project/",
-    },
     {
       image: personalApp,
       title: "Personal Application (Weather App & To Do List)",
@@ -30,7 +22,7 @@ const WorkContainer = () => {
       image: coursology,
       title: "Coursology",
       description:
-        "This full stack project represents a school's content management system. Courses and teachers can be created, updated and deleted and are stored in the database and displayed in the site.",
+        "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted and are stored in the database and displayed in the site.",
       languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
       code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
       site: "",
@@ -43,6 +35,24 @@ const WorkContainer = () => {
       languages: ["Java"],
       code: "https://github.com/AndyBowerman/Hang-Man-2",
       site: "",
+    },
+    {
+      image: propertyTracker,
+      title: "Property Tracker",
+      description:
+        "The front end of this property application is built in React. Users can create a profile and then login to the site where they can add, view, remove and update properties listed for sale and for rent. I've created the database using Firestore.",
+      languages: ["React","Firebase", "SASS"],
+      code: "https://github.com/AndyBowerman/property-tracker-app",
+      site: "https://andybowerman.github.io/property-tracker-app/",
+    },
+    {
+      image: api,
+      title: "Brew Dog API",
+      description:
+        "I've used React to build out a front end that will display the results of a call to the Brew Dog API. Users can search, filter using a number of options and view information on each beer.",
+      languages: ["React", "SASS", "Restful API"],
+      code: "https://github.com/AndyBowerman/punk-api-project",
+      site: "https://andybowerman.github.io/punk-api-project/",
     },
     {
       image: snake,
