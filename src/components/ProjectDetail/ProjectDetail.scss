@@ -8,18 +8,6 @@
   align-items: center;
   position: relative;
 
-  &__close {
-    position: relative;
-    border: none;
-    color: $color-red;
-    font-weight: 700;
-    margin-top: 6.5rem;
-    font-size: $font-size-medium;
-    background-color: transparent;
-    z-index: 1;
-    cursor: pointer;
-  }
-
   &__dec {
     width: 40%;
     height: 100%;
@@ -35,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 7rem;
 
     .project-detail__container {
       margin: 0 0.2rem;
@@ -80,7 +69,7 @@
         }
 
         .project-detail__list {
-          margin-top: 1rem;
+          margin: 1rem 0;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -101,21 +90,36 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-wrap: wrap;
 
           .project-detail__link {
             color: $color-bright-white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 1rem;
             text-decoration: none;
             background-color: $color-navy;
-            margin: 1rem;
+            margin: 0.3rem 1rem;
             padding: 0.5rem 1rem;
-            box-shadow: $box-shadow;
+            box-shadow: $box-shadow-subtle;
             transition: 500ms;
             text-align: center;
+
+            .project-detail__link-text {
+              margin-left: 0.5rem;
+            }
+          }
+
+          .project-detail__link--close {
+            background-color: $color-teal;
+            border: none;
+            color: $color-dark-grey;
+            cursor: pointer;
           }
 
           .project-detail__link:hover {
-            box-shadow: $box-shadow-bold;
+            box-shadow: $box-shadow;
           }
         }
       }
@@ -129,7 +133,13 @@
   }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 730px) {
+  .project-detail__flex {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 850px) {
   .project-detail__dec {
     width: 75%;
     left: 0;

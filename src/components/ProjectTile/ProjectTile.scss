@@ -23,6 +23,7 @@
     width: 100%;
     position: absolute;
     background-color: rgba(125, 125, 125, 0.2);
+    transition: background-color 500ms;
   }
 
   &__title {
@@ -33,6 +34,7 @@
     text-align: center;
     font-size: $font-size-medium;
     font-weight: 400;
+    transition: opacity 1s;
   }
 
   &__button {
@@ -47,6 +49,7 @@
     font-family: $font-secondary;
     font-weight: 400;
     cursor: pointer;
+    transition: opacity 1s;
   }
 }
 

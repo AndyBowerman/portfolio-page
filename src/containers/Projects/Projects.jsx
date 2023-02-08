@@ -21,22 +21,22 @@ import propertyTrackerThree from "../../assets/property-tracker/create-listing.p
 const Projects = ({ getProject }) => {
   const projects = [
     {
-      image: [coursology, courses, addCourse],
-      title: "Coursology",
-      description:
-        "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted and are stored in the database and displayed in the site.",
-      languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
-      code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
-      site: "",
-    },
-    {
       image: [propertyTracker, propertyTrackerTwo, propertyTrackerThree],
       title: "Property Tracker",
       description:
-        "A property application allowing users full CRUD functionality to list properties for sale/rent specific to their log in details.",
+        "Property tracker allows users to create their own login details and create, view, update and delete entries that are specific to their user login.",
       languages: ["React", "Firebase", "SASS"],
       code: "https://github.com/AndyBowerman/property-tracker-app",
       site: "https://andybowerman.github.io/property-tracker-app/",
+    },
+    {
+      image: [coursology, courses, addCourse],
+      title: "Coursology",
+      description:
+        "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted. They are stored in the database and displayed in the site.",
+      languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
+      code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
+      site: "",
     },
     {
       image: [personalApp, weather, toDo],
@@ -60,7 +60,7 @@ const Projects = ({ getProject }) => {
       image: [punk, infoPage, beers],
       title: "Brew Dog API",
       description:
-        "I've used React to build out a front end that will display the results of a call to the Brew Dog API. Users can search, filter using a number of options and view information on each beer.",
+        "I've used React to build out a front end that displays the Brew Dog beer catalogue. Users can search and filter the beers with each beer having its own information page.",
       languages: ["React", "SASS", "Restful API"],
       code: "https://github.com/AndyBowerman/punk-api-project",
       site: "https://andybowerman.github.io/punk-api-project/",
@@ -69,7 +69,7 @@ const Projects = ({ getProject }) => {
       image: [snake, play, code],
       title: "Snake Game",
       description:
-        "Based on snake from the early 2000s, this game allows you to select a difficulty level and records your high score. ",
+        "Based on the mobile phone game this application allows you to select a difficulty level which alters the speed and records your high score.",
       languages: ["HTML", "SASS", "JavaScript"],
       code: "https://github.com/AndyBowerman/JS-Snake-Game",
       site: "https://andybowerman.github.io/JS-Snake-Game/",

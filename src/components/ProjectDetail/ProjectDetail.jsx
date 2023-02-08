@@ -1,4 +1,7 @@
 import "./ProjectDetail.scss";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
+import CodeIcon from '@mui/icons-material/Code';
 
 const ProjectDetail = ({ getProject, project }) => {
   const renderTech = project.languages?.map((tech, index) => (
@@ -8,9 +11,6 @@ const ProjectDetail = ({ getProject, project }) => {
   ));
   return (
     <div className="project-detail">
-      <button className="project-detail__close" onClick={() => getProject({})}>
-        X
-      </button>
       <div className="project-detail__dec"></div>
       <div className="project-detail__flex">
         <div className="project-detail__container project-detail__container--left">
@@ -37,7 +37,7 @@ const ProjectDetail = ({ getProject, project }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Visit Site
+                <OpenInBrowserIcon /><p className="project-detail__link-text">Visit Site</p>
               </a>
               <a
                 className="project-detail__link"
@@ -45,8 +45,14 @@ const ProjectDetail = ({ getProject, project }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Source Code
+                <CodeIcon /><p className="project-detail__link-text">Source Code</p>
               </a>
+              <button
+                onClick={() => getProject({})}
+                className="project-detail__link project-detail__link--close"
+              >
+                <ArrowBackIcon /> <p className="project-detail__link-text">Return to projects</p>
+              </button>
             </div>
           </div>
         </div>

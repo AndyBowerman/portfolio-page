@@ -14,15 +14,15 @@ const ContactInfo = () => {
       </li>
       <li className="contact-info__item">
         <div className="contact-info__icon">
-          <CallIcon sx={{ fontSize: 40 }} />
-        </div>
-        07712 295051
-      </li>
-      <li className="contact-info__item">
-        <div className="contact-info__icon">
           <EmailIcon sx={{ fontSize: 40 }} />
         </div>
         andy_bowerman06@hotmail.com
+      </li>
+      <li className="contact-info__item">
+        <div className="contact-info__icon">
+          <CallIcon sx={{ fontSize: 40 }} />
+        </div>
+        07712 295051
       </li>
     </ul>
   );
