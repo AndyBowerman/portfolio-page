@@ -1,0 +1,51 @@
+@use '../../styles/variables' as *;
+
+.skills {
+    width: 100%;
+    padding-bottom: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        width: 20rem;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 3rem;
+    }
+
+    &__dec {
+        width: 100%;
+        top: 18rem;
+        height: 72rem;
+        position: absolute;
+        background-color: $color-navy;
+    }
+}
+
+@media (min-width: 430px) {
+    .skills__container {
+        width: 27rem;
+    }
+
+    .skills__dec {
+        height: 24rem;
+    }
+}
+
+@media (min-width: 870px) {
+    .skills__container {
+        display: grid !important;
+        width: 40rem !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+    }
+
+    .skills__dec {
+        top: 6rem;
+    }
+}

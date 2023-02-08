@@ -1,32 +1,32 @@
 @use "../../styles/variables" as *;
 
 .skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: $box-shadow;
+  width: 12rem;
+  height: 11rem;
+
+  &__image {
+    height: 5rem;
+    width: auto;
     margin-bottom: 1rem;
+  }
 
-    &__image {
-        height: 6rem;
-        width: auto;
-        padding: 0 1.4rem;
-        margin-bottom: 1rem;
-    }
-
-    &__text {
-        font-family: $font-primary;
-        font-size: $font-size-medium;
-        color: $color-dark-grey;
-    }
+  &__text {
+    font-size: $font-size-medium;
+    color: $color-dark-grey;
+  }
 }
 
-@media screen and (max-width: 622px) {
-    .skill{
-        margin-bottom: 3rem;
-    
-        &__image {
-            height: 10rem;
-        }
-    }
+#green {
+  background-color: $color-teal;
+}
+
+#blue {
+    background-color: $color-light-grey;
 }

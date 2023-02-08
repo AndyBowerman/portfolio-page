@@ -1,26 +1,33 @@
 @use "../../styles/variables" as *;
 
 .contact-info {
-    font-family: $font-primary;
-    font-size: $font-size-medium;
-    text-align: center;
-    list-style: none;
-    z-index: 1;
-    font-weight: 700;
+  font-size: $font-size-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 
-    &__item {
-        padding: 1rem 0;
-    }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
 
-    &__link {
-        text-decoration: none;
-        color: $color-black
+    .contact-info__icon {
+      margin-bottom: 0.5rem;
     }
+  }
 }
 
-@media screen and (max-width: 605px) {
-    .contact-info {
-        font-size: $font-size-small;
-        padding: 0 1rem;
+@media (min-width: 430px) {
+  .contact-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__item {
+      margin: 1rem 1.5rem;
     }
+  }
 }

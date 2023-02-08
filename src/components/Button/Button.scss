@@ -1,15 +1,17 @@
 @use "../../styles/variables" as *;
 
 .headline__button {
-    background-color: transparent;
-    border: 0.2rem $color-black solid;
-    padding: 1.2rem;
+    background-color: $color-navy;
+    border: none;
+    color: $color-white;
+    padding: 1rem;
     font-family: $font-primary;
-    font-weight: 700;
+    font-weight: 400;
     font-size: $font-size-medium;
     margin-top: 0.5rem;
     cursor: pointer;
     transition: 500ms;
+    box-shadow: $box-shadow-bold;
 }
 
 .headline__button:hover {
@@ -19,7 +21,7 @@
 .card__button {
     background-color: $color-dark-blue;
     border: none;
-    color: $color-white-smoke;
+    color: $color-white;
     padding: 0.9rem;
     font-family: $font-primary;
     font-weight: 400;

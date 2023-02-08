@@ -1,17 +1,30 @@
 @use "../../styles/variables" as *;
 
 .layout {
-    min-height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
     background-color: $color-white;
 
     &__main {
-        min-height: 80vh;
+        position: relative;
+        background-color: $color-bright-white;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        min-height: 100vh;
     }
+}
+
+@media (min-width: 1150px) {
+    .layout__main {
+        width: 85%;        
+        box-shadow: $box-shadow-bold;
+        margin: auto;
+    }    
+}
+
+@media (min-width: 1300px) {
+    .layout__main {
+        width: 75%;        
+        box-shadow: $box-shadow-bold;
+        margin: auto;
+    }    
 }

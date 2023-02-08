@@ -1,19 +1,24 @@
 import Layout from "../../containers/Layout/Layout";
-import WorkContainer from "../../containers/WorkContainer/WorkContainer";
-import "./MyWork.scss";
-import HeaderSmall from "../../components/HeaderSmall/HeaderSmall";
+import Projects from "../../containers/Projects/Projects";
+import { useState } from "react";
+import ProjectDetail from "../../components/ProjectDetail/ProjectDetail";
 
 const MyWork = () => {
-  return (
-    <Layout>
-      <>
-      <div className="my-work">
-        <HeaderSmall text="My Projects" />
-      </div>      
-        <WorkContainer />
-      </>      
-    </Layout>
-  )
-}
+  const [currentProject, setCurrentProject] = useState(0);
+  const [displayProject, setDisplayProject] = useState(false);
 
-export default MyWork
+  const getProject = (project) => {
+    setCurrentProject(project);
+    setDisplayProject(!displayProject)
+  };
+  return !displayProject ? (
+    <Layout position="project">
+      <Projects getProject={getProject} />
+    </Layout>
+  ) : (
+    <Layout position="project">
+    <ProjectDetail getProject={getProject} project={currentProject} /></Layout>
+  );
+};
+
+export default MyWork;

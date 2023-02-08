@@ -1,19 +1,17 @@
-import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
 import "./Layout.scss";
 
-const Layout = ({children}) => {
+const Layout = ({ children, position }) => {
   return (
     <div className="layout">
+      <main className="layout__main">
         <nav className="layout__nav">
-            <Nav />
+          <Nav position={position} />
         </nav>
-        <main className="layout__main">{children}</main>
-        <footer className="layout__footer">
-          <Footer />
-        </footer>
+        {children}
+      </main>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

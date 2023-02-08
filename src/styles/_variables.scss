@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-// White colors
-$color-white: #fefafa;
-$color-white-blue: #b1b8cf;
-$color-white-smoke: #f5f5f5;
-
-// Orange color
+$color-white: #ececec;
+$color-bright-white: #ffffff;
 $color-orange: #df5505;
-
-// Black color
 $color-black: #0f0f0f;
-
-// Blue color
 $color-electric-blue: #2bef92;
 $color-blue: #1fa4ea;
-$color-dark-blue: #195753;
-
-// Grey color
-$color-dark-grey: #58595B;
+$color-dark-blue: #11122A;
+$color-red: #b85042;
+$color-light-olive: #e7e8d1;
+$color-teal: #a7beae;
+$color-light-green: #B2E5C3;
+$color-dark-green: #41876D;
+$color-dark-grey: #3D4046;
 $color-grey: #b0b3b8;
-$color-light-grey: #ebecf0;
+$color-light-grey: #cdd6db;
+$color-navy: #404B61;
 
 // Font-family
 $font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
 
 // Font size:
 $font-size-largest: 4rem;
@@ -34,4 +32,6 @@ $font-size-extra-small: 0.85rem;
 $font-size-smallest: 0.8rem;
 
 // Box shadow
-$box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+$box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$box-shadow-bold: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+$box-shadow-subtle: rgba(0, 0, 0, 0.16) 0px 1px 4px;
