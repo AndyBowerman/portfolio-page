@@ -21,6 +21,15 @@ import propertyTrackerThree from "../../assets/property-tracker/create-listing.p
 const Projects = ({ getProject }) => {
   const projects = [
     {
+      image: [coursology, courses, addCourse],
+      title: "Coursology",
+      description:
+        "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted and are stored in the database and displayed in the site.",
+      languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
+      code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
+      site: "",
+    },
+    {
       image: [propertyTracker, propertyTrackerTwo, propertyTrackerThree],
       title: "Property Tracker",
       description:
@@ -37,15 +46,6 @@ const Projects = ({ getProject }) => {
       languages: ["React", "SASS", "weatherapi.com"],
       code: "https://github.com/AndyBowerman/personal-app",
       site: "https://andybowerman.github.io/personal-app/",
-    },
-    {
-      image: [coursology, courses, addCourse],
-      title: "Coursology",
-      description:
-        "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted and are stored in the database and displayed in the site.",
-      languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
-      code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
-      site: "",
     },
     {
       image: [gamePlay, hangman, gamePlay],

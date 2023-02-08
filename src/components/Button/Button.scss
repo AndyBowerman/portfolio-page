@@ -17,21 +17,3 @@
 .headline__button:hover {
     box-shadow: $box-shadow;
 }
-
-.card__button {
-    background-color: $color-dark-blue;
-    border: none;
-    color: $color-white;
-    padding: 0.9rem;
-    font-family: $font-primary;
-    font-weight: 400;
-    font-size: $font-size-small;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    transition: 500ms;
-}
-
-.card__button:hover {
-    box-shadow: $box-shadow;
-}
