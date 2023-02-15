@@ -36,7 +36,7 @@ const Projects = ({ getProject }) => {
         "This full stack project represents a universities content management system. Courses and teachers can be created, updated and deleted. They are stored in the database and displayed in the site.",
       languages: ["React", "SASS", "Java", "Spring Boot", "MySQL"],
       code: "https://github.com/AndyBowerman/Courseology-Full-Stack-Project",
-      site: "",
+      site: "https://andybowerman.github.io/Courseology-Front-End/",
     },
     {
       image: [personalApp, weather, toDo],
